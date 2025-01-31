@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Lato } from "next/font/google";
 import Image from "next/image";
