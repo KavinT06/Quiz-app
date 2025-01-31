@@ -1,23 +1,22 @@
+"use client";
 import React from "react";
 import styled from "styled-components";
 
 const Card = () => {
     return (
         <StyledWrapper>
-            <div className="parent">
-                <div className="card">
-                    <div className="content-box">
-                        <span className="card-title">3D Card</span>
-                        <p className="card-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                        </p>
-                        <span className="see-more">See More</span>
-                    </div>
-                    <div className="date-box">
-                        <span className="month">JUNE</span>
-                        <span className="date">29</span>
-                    </div>
+            <div className="card my-5">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z" />
+                </svg>
+                <div className="card__content">
+                    <p className="card__title">Card Title</p>
+                    <p className="card__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.
+                    </p>
                 </div>
             </div>
         </StyledWrapper>
@@ -25,123 +24,66 @@ const Card = () => {
 };
 
 const StyledWrapper = styled.div`
-    .parent {
+    .card {
+        position: relative;
         width: 300px;
-        padding: 20px;
-        perspective: 1000px;
+        height: 200px;
+        background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    .card {
-        padding-top: 50px;
-        /* border-radius: 10px; */
-        border: 3px solid rgb(255, 255, 255);
-        transform-style: preserve-3d;
-        background: linear-gradient(
-                135deg,
-                #0000 18.75%,
-                #f3f3f3 0 31.25%,
-                #0000 0
-            ),
-            repeating-linear-gradient(
-                45deg,
-                #f3f3f3 -6.25% 6.25%,
-                #ffffff 0 18.75%
-            );
-        background-size: 60px 60px;
-        background-position: 0 0, 0 0;
-        background-color: #f0f0f0;
-        width: 100%;
-        box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
-        transition: all 0.5s ease-in-out;
+    .card svg {
+        width: 48px;
+        fill: #333;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
     .card:hover {
-        background-position: -100px 100px, -100px 100px;
-        transform: rotate3d(0.5, 1, 0, 30deg);
+        transform: rotate(-5deg) scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
 
-    .content-box {
-        background: rgba(4, 193, 250, 0.732);
-        /* border-radius: 10px 100px 10px 10px; */
-        transition: all 0.5s ease-in-out;
-        padding: 60px 25px 25px 25px;
-        transform-style: preserve-3d;
-    }
-
-    .content-box .card-title {
-        display: inline-block;
-        color: white;
-        font-size: 25px;
-        font-weight: 900;
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 50px);
-    }
-
-    .content-box .card-title:hover {
-        transform: translate3d(0px, 0px, 60px);
-    }
-
-    .content-box .card-content {
-        margin-top: 10px;
-        font-size: 12px;
-        font-weight: 700;
-        color: #f2f2f2;
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 30px);
-    }
-
-    .content-box .card-content:hover {
-        transform: translate3d(0px, 0px, 60px);
-    }
-
-    .content-box .see-more {
-        cursor: pointer;
-        margin-top: 1rem;
-        display: inline-block;
-        font-weight: 900;
-        font-size: 9px;
-        text-transform: uppercase;
-        color: rgb(7, 185, 255);
-        /* border-radius: 5px; */
-        background: white;
-        padding: 0.5rem 0.7rem;
-        transition: all 0.5s ease-in-out;
-        transform: translate3d(0px, 0px, 20px);
-    }
-
-    .content-box .see-more:hover {
-        transform: translate3d(0px, 0px, 60px);
-    }
-
-    .date-box {
+    .card__content {
         position: absolute;
-        top: 30px;
-        right: 30px;
-        height: 60px;
-        width: 60px;
-        background: white;
-        border: 1px solid rgb(7, 185, 255);
-        /* border-radius: 10px; */
-        padding: 10px;
-        transform: translate3d(0px, 0px, 80px);
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        opacity: 0;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     }
 
-    .date-box span {
-        display: block;
-        text-align: center;
+    .card:hover .card__content {
+        transform: translate(-50%, -50%) rotate(0deg);
+        opacity: 1;
     }
 
-    .date-box .month {
-        color: rgb(4, 193, 250);
-        font-size: 9px;
+    .card__title {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
         font-weight: 700;
     }
 
-    .date-box .date {
-        font-size: 20px;
-        font-weight: 900;
-        color: rgb(4, 193, 250);
+    .card__description {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #777;
+        line-height: 1.4;
+    }
+
+    .card:hover svg {
+        scale: 0;
+        transform: rotate(-45deg);
     }
 `;
 

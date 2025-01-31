@@ -1,0 +1,1 @@
+export {default as Coins} from "@/app/assets/cmp/Coins";
