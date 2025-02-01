@@ -2,15 +2,16 @@
 import React from "react";
 import { Lato } from "next/font/google";
 import Image from "next/image";
-import Card1 from "./assets/cmp/cards/Card1";
-import Card2 from "./assets/cmp/cards/Card2";
-import Card3 from "./assets/cmp/cards/Card3";
-import Card4 from "./assets/cmp/cards/Card4";
-import Card5 from "./assets/cmp/cards/Card5";
-import Card6 from "./assets/cmp/cards/Card6";
-import Card7 from "./assets/cmp/cards/Card7";
-import Card8 from "./assets/cmp/cards/Card8";
-import Card9 from "./assets/cmp/cards/Card9";
+import Card1 from "./cmp/cards/Card1";
+import Card2 from "./cmp/cards/Card2";
+import Card3 from "./cmp/cards/Card3";
+import Card4 from "./cmp/cards/Card4";
+import Card5 from "./cmp/cards/Card5";
+import Card6 from "./cmp/cards/Card6";
+import Card7 from "./cmp/cards/Card7";
+import Card8 from "./cmp/cards/Card8";
+import Card9 from "./cmp/cards/Card9";
+import Link from "next/link";
 
 const latofont = Lato({
     weight: ["400", "700"],
@@ -29,15 +30,15 @@ const page = () => {
                         Select a subject to get started and test your knowledge!
                     </h3>
                     <div className="grid grid-cols-3">
-                        <Card1 />
-                        <Card2 />
-                        <Card3 />
-                        <Card4 />
-                        <Card5 />
-                        <Card6 />
-                        <Card7 />
-                        <Card8 />
-                        <Card9 />
+                        <Link><Card1 /></Link>
+                        <Link><Card2 /></Link>
+                        <Link><Card3 /></Link>
+                        <Link><Card4 /></Link>
+                        <Link><Card5 /></Link>
+                        <Link><Card6 /></Link>
+                        <Link><Card7 /></Link>
+                        <Link><Card8 /></Link>
+                        <Link><Card9 /></Link>
                     </div>
                 </div>
             </div>
