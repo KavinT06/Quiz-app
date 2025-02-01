@@ -1,6 +1,5 @@
 import React from "react";
-import { Coins } from "../svg";
-
+import Coins from "./Coins";
 const Navbar = () => {
     return (
         <div>

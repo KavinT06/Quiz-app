@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
-import imageUrl from "../../img/geo.png";
+import imageUrl from "../../assets/img/geo.png";
 const Card = () => {
     return (
         <StyledWrapper>

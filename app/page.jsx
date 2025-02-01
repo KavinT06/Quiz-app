@@ -30,26 +30,44 @@ const page = () => {
                         Select a subject to get started and test your knowledge!
                     </h3>
                     <div className="grid grid-cols-3">
-                        <Link><Card1 /></Link>
-                        <Link><Card2 /></Link>
-                        <Link><Card3 /></Link>
-                        <Link><Card4 /></Link>
-                        <Link><Card5 /></Link>
-                        <Link><Card6 /></Link>
-                        <Link><Card7 /></Link>
-                        <Link><Card8 /></Link>
-                        <Link><Card9 /></Link>
+                        <Link href="/tech">
+                            <Card1 />
+                        </Link>
+                        <Link href="/sports">
+                            <Card2 />
+                        </Link>
+                        <Link href="/math">
+                            <Card3 />
+                        </Link>
+                        <Link href="/art">
+                            <Card4 />
+                        </Link>
+                        <Link href="/science">
+                            <Card5 />
+                        </Link>
+                        <Link href="/geography">
+                            <Card6 />
+                        </Link>
+                        <Link href="/history">
+                            <Card7 />
+                        </Link>
+                        <Link href="/music">
+                            <Card8 />
+                        </Link>
+                        <Link href="/literature">
+                            <Card9 />
+                        </Link>
                     </div>
                 </div>
             </div>
-                <footer className="footer footer-center bg-base-300 text-base-content p-8">
-                    <aside>
-                        <p>
-                            Copyright © {new Date().getFullYear()} - All right
-                            reserved by ACME Industries Ltd
-                        </p>
-                    </aside>
-                </footer>
+            <footer className="footer footer-center bg-base-300 text-base-content p-8">
+                <aside>
+                    <p>
+                        Copyright © {new Date().getFullYear()} - All right
+                        reserved by ACME Industries Ltd
+                    </p>
+                </aside>
+            </footer>
         </div>
     );
 };

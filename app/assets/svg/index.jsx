@@ -1,1 +1,1 @@
-export {default as Coins} from "@/app/assets/cmp/Coins";
+export {default as Coins} from "@/app/cmp/Coins";
