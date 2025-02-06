@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "type": "choose",
+        "points": 1,
+        "options": [
+            {
+                "id": 1,
+                "name": "Paris",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "name": "London",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "name": "Berlin",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "name": "Madrid",
+                "correct": false
+            }
+        ]
+    },
+]

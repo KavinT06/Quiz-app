@@ -4,9 +4,9 @@ const Navbar = () => {
     return (
         <div>
             <nav className="bg-white border-gray-200 dark:bg-gray-900">
-                <div className="max-w-screen-2xl flex flex-wrap items-center justify-between p-4">
+                <div className="w-full max-w-fullxl mx-auto flex flex-wrap items-center justify-between p-4">
                     <a
-                        href="#"
+                        href="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
                         <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
