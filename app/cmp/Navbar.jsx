@@ -1,6 +1,6 @@
 import React from "react";
 import Coins from "./Coins";
-const Navbar = ({ totalPoints }) => {
+const Navbar = () => {
     return (
         <div>
             <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -45,7 +45,7 @@ const Navbar = ({ totalPoints }) => {
                             <li className="flex items-center">
                                 <Coins />
                                 <p className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 dark:text-white text-lg ml-2 mr-10">
-                                    Points : {totalPoints}
+                                    Points :
                                 </p>
                             </li>
                         </ul>

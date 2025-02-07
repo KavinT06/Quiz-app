@@ -71,7 +71,7 @@ const Quiz = () => {
     <div>
       <div className='flex items-center justify-center bg-[#f3f4f6] my-8'>
         <div className='bg-white w-6/12 text-center'>
-          <h2>Question {currentQuestionIndex + 1}</h2>
+          <h2 className='font-bold text-xl my-3'>Question {currentQuestionIndex + 1}</h2>
           <p className='text-2xl font-bold w-3/4 bg-[#3b82f6] ml-20 py-3 text-white rounded-xl'>{currentQuestion.question}</p>
           <p className='text-left ml-20 mt-5 font-bold'>Time left: {timeLeft} seconds</p>
           <ul>
@@ -81,7 +81,7 @@ const Quiz = () => {
               </li>
             ))}
           </ul>
-          <p>Total Points: {totalPoints}</p>
+          <p className='my-5'>Total Points: {totalPoints}</p>
         </div>
       </div>
     </div>
