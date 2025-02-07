@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
+import Navbar from './Navbar';
 
 const Quiz = () => {
   const [questions, setQuestions] = useState([]);
@@ -68,18 +69,20 @@ const Quiz = () => {
 
   return (
     <div>
-      <div>
-        <h2>Question {currentQuestionIndex + 1}</h2>
-        <p>{currentQuestion.question}</p>
-        <ul>
-          {currentQuestion.options.map((option, index) => (
-            <li key={index}>
-              <button onClick={() => handleAnswer(option)}>{option}</button>
-            </li>
-          ))}
-        </ul>
-        <p>Time left: {timeLeft} seconds</p>
-        <p>Total Points: {totalPoints}</p>
+      <div className='flex items-center justify-center bg-[#f3f4f6] my-8'>
+        <div className='bg-white w-6/12 text-center'>
+          <h2>Question {currentQuestionIndex + 1}</h2>
+          <p className='text-2xl font-bold w-3/4 bg-[#3b82f6] ml-20 py-3 text-white rounded-xl'>{currentQuestion.question}</p>
+          <p className='text-left ml-20 mt-5 font-bold'>Time left: {timeLeft} seconds</p>
+          <ul>
+            {currentQuestion.options.map((option, index) => (
+              <li key={index}>
+                <button className="btn btn-wide bg-slate-200 border-none text-black hover:bg-[#d1d5db] mt-5" onClick={() => handleAnswer(option)}>{option}</button>
+              </li>
+            ))}
+          </ul>
+          <p>Total Points: {totalPoints}</p>
+        </div>
       </div>
     </div>
   );

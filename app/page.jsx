@@ -12,6 +12,7 @@ import Card7 from "./cmp/cards/Card7";
 import Card8 from "./cmp/cards/Card8";
 import Card9 from "./cmp/cards/Card9";
 import Link from "next/link";
+import Footer from "./cmp/Footer";
 
 const latofont = Lato({
     weight: ["400", "700"],
@@ -60,14 +61,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <footer className="footer footer-center bg-base-300 text-base-content p-8">
-                <aside>
-                    <p>
-                        Copyright © {new Date().getFullYear()} - All right
-                        reserved by ACME Industries Ltd
-                    </p>
-                </aside>
-            </footer>
+            <Footer />
         </div>
     );
 };
