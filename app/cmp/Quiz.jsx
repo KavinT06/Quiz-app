@@ -11,7 +11,7 @@ const Quiz = () => {
 
   useEffect(() => {
     // Fetch questions from package.json
-    fetch('/package.json')
+    fetch('/tech.json')
       .then((response) => response.json())
       .then((data) => {
         setQuestions(data.quizQuestions);
@@ -62,7 +62,12 @@ const Quiz = () => {
   }
 
   if (quizFinished) {
-    return <div>Quiz finished! Your total points: {totalPoints}</div>;
+    return (
+    <div>
+      <h1 className='text-[#2563eb] font-bold text-2xl text-center my-5'>Quiz Results</h1>
+      Quiz finished! Your total points: {totalPoints}
+    </div>
+    );
   }
 
   const currentQuestion = questions[currentQuestionIndex];
