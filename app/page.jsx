@@ -23,8 +23,8 @@ const page = () => {
     return (
         <div>
             <div className="bg-white text-black">
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <h1 className="text-blue-500 font-bold text-4xl text-center py-8">
+                <div className="mx-auto max-w-7xl py-12 p-4 lg:px-8">
+                    <h1 className="text-blue-500 font-bold text-4xl text-center py-4">
                         Welcome to the Quiz App
                     </h1>
                     <h3 className="text-2xl text-center py-4 mb-10">
