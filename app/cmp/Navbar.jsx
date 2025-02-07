@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Coins from "./Coins";
 const Navbar = () => {
@@ -45,7 +46,7 @@ const Navbar = () => {
                             <li className="flex items-center">
                                 <Coins />
                                 <p className="block py-2 px-3 text-gray-900 rounded-sm md:border-0 md:p-0 dark:text-white text-lg ml-2 mr-10">
-                                    Points :
+                                    Points : 100
                                 </p>
                             </li>
                         </ul>
