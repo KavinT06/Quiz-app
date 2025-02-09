@@ -1,0 +1,125 @@
+{
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "Who was the first President of the United States?",
+        "options": [
+          { "id": 1, "answer": "George Washington" },
+          { "id": 2, "answer": "Thomas Jefferson" },
+          { "id": 3, "answer": "Abraham Lincoln" },
+          { "id": 4, "answer": "John Adams" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 2,
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": [
+          { "id": 1, "answer": "Roman Empire" },
+          { "id": 2, "answer": "Ottoman Empire" },
+          { "id": 3, "answer": "British Empire" },
+          { "id": 4, "answer": "Mongol Empire" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 3,
+        "question": "The Berlin Wall separated East and West of which city?",
+        "options": [
+          { "id": 1, "answer": "Berlin" },
+          { "id": 2, "answer": "Vienna" },
+          { "id": 3, "answer": "Paris" },
+          { "id": 4, "answer": "Rome" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 4,
+        "question": "In which year did World War II end?",
+        "options": [
+          { "id": 1, "answer": "1945" },
+          { "id": 2, "answer": "1944" },
+          { "id": 3, "answer": "1939" },
+          { "id": 4, "answer": "1950" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 5,
+        "question": "Who invented the telephone?",
+        "options": [
+          { "id": 1, "answer": "Alexander Graham Bell" },
+          { "id": 2, "answer": "Thomas Edison" },
+          { "id": 3, "answer": "Nikola Tesla" },
+          { "id": 4, "answer": "Guglielmo Marconi" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 6,
+        "question": "Which country was the first to land a man on the moon?",
+        "options": [
+          { "id": 1, "answer": "United States" },
+          { "id": 2, "answer": "Soviet Union" },
+          { "id": 3, "answer": "China" },
+          { "id": 4, "answer": "India" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 7,
+        "question": "Which war was fought between the North and South of the United States?",
+        "options": [
+          { "id": 1, "answer": "Civil War" },
+          { "id": 2, "answer": "World War I" },
+          { "id": 3, "answer": "World War II" },
+          { "id": 4, "answer": "Revolutionary War" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 8,
+        "question": "Who was the first emperor of China?",
+        "options": [
+          { "id": 1, "answer": "Qin Shi Huang" },
+          { "id": 2, "answer": "Han Wudi" },
+          { "id": 3, "answer": "Kublai Khan" },
+          { "id": 4, "answer": "Li Yuan" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 9,
+        "question": "Which of these events took place in 1776?",
+        "options": [
+          { "id": 1, "answer": "American Declaration of Independence" },
+          { "id": 2, "answer": "End of World War I" },
+          { "id": 3, "answer": "Russian Revolution" },
+          { "id": 4, "answer": "French Revolution" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 10,
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": [
+          { "id": 1, "answer": "Amelia Earhart" },
+          { "id": 2, "answer": "Bessie Coleman" },
+          { "id": 3, "answer": "Harriet Quimby" },
+          { "id": 4, "answer": "Jacqueline Cochran" }
+        ],
+        "answer": 1,
+        "points": 10
+      }
+    ]
+  }
+  

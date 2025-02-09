@@ -1,0 +1,125 @@
+{
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+          { "id": 1, "answer": "Leonardo da Vinci" },
+          { "id": 2, "answer": "Vincent van Gogh" },
+          { "id": 3, "answer": "Pablo Picasso" },
+          { "id": 4, "answer": "Claude Monet" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 2,
+        "question": "Which artist is known for the work 'The Persistence of Memory'?",
+        "options": [
+          { "id": 1, "answer": "Salvador Dalí" },
+          { "id": 2, "answer": "Henri Matisse" },
+          { "id": 3, "answer": "Pablo Picasso" },
+          { "id": 4, "answer": "Claude Monet" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is a famous painting by Vincent van Gogh?",
+        "options": [
+          { "id": 1, "answer": "Starry Night" },
+          { "id": 2, "answer": "Guernica" },
+          { "id": 3, "answer": "The Scream" },
+          { "id": 4, "answer": "The Birth of Venus" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 4,
+        "question": "Who created the famous sculpture 'David'?",
+        "options": [
+          { "id": 1, "answer": "Michelangelo" },
+          { "id": 2, "answer": "Donatello" },
+          { "id": 3, "answer": "Leonardo da Vinci" },
+          { "id": 4, "answer": "Raphael" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 5,
+        "question": "Which art movement is Salvador Dalí associated with?",
+        "options": [
+          { "id": 1, "answer": "Surrealism" },
+          { "id": 2, "answer": "Impressionism" },
+          { "id": 3, "answer": "Cubism" },
+          { "id": 4, "answer": "Renaissance" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 6,
+        "question": "What medium did Jackson Pollock famously use for his artwork?",
+        "options": [
+          { "id": 1, "answer": "Drip painting" },
+          { "id": 2, "answer": "Oil on canvas" },
+          { "id": 3, "answer": "Watercolors" },
+          { "id": 4, "answer": "Sculpture" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is a famous painting by Pablo Picasso?",
+        "options": [
+          { "id": 1, "answer": "Guernica" },
+          { "id": 2, "answer": "Mona Lisa" },
+          { "id": 3, "answer": "The Persistence of Memory" },
+          { "id": 4, "answer": "The Scream" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 8,
+        "question": "What is the main characteristic of Impressionist art?",
+        "options": [
+          { "id": 1, "answer": "Use of light and color" },
+          { "id": 2, "answer": "Geometric shapes" },
+          { "id": 3, "answer": "Emphasis on detail" },
+          { "id": 4, "answer": "Dark colors" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 9,
+        "question": "Who painted 'The Last Supper'?",
+        "options": [
+          { "id": 1, "answer": "Leonardo da Vinci" },
+          { "id": 2, "answer": "Michelangelo" },
+          { "id": 3, "answer": "Raphael" },
+          { "id": 4, "answer": "Vincent van Gogh" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 10,
+        "question": "Which famous artist is known for the 'Water Lilies' series?",
+        "options": [
+          { "id": 1, "answer": "Claude Monet" },
+          { "id": 2, "answer": "Vincent van Gogh" },
+          { "id": 3, "answer": "Pablo Picasso" },
+          { "id": 4, "answer": "Leonardo da Vinci" }
+        ],
+        "answer": 1,
+        "points": 10
+      }
+    ]
+  }
+  

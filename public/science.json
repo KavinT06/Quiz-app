@@ -1,0 +1,125 @@
+{
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "What is the chemical symbol for water?",
+        "options": [
+          { "id": 1, "answer": "H2O" },
+          { "id": 2, "answer": "O2" },
+          { "id": 3, "answer": "CO2" },
+          { "id": 4, "answer": "H2" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 2,
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+          { "id": 1, "answer": "Mars" },
+          { "id": 2, "answer": "Earth" },
+          { "id": 3, "answer": "Venus" },
+          { "id": 4, "answer": "Jupiter" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 3,
+        "question": "Who is known as the father of modern physics?",
+        "options": [
+          { "id": 1, "answer": "Albert Einstein" },
+          { "id": 2, "answer": "Isaac Newton" },
+          { "id": 3, "answer": "Galileo Galilei" },
+          { "id": 4, "answer": "Nikola Tesla" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 4,
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          { "id": 1, "answer": "Mitochondria" },
+          { "id": 2, "answer": "Nucleus" },
+          { "id": 3, "answer": "Ribosome" },
+          { "id": 4, "answer": "Endoplasmic Reticulum" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 5,
+        "question": "What is the chemical formula for methane?",
+        "options": [
+          { "id": 1, "answer": "CH4" },
+          { "id": 2, "answer": "CO2" },
+          { "id": 3, "answer": "O2" },
+          { "id": 4, "answer": "H2O" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 6,
+        "question": "What is the atomic number of carbon?",
+        "options": [
+          { "id": 1, "answer": "6" },
+          { "id": 2, "answer": "12" },
+          { "id": 3, "answer": "8" },
+          { "id": 4, "answer": "10" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 7,
+        "question": "What is the largest organ in the human body?",
+        "options": [
+          { "id": 1, "answer": "Skin" },
+          { "id": 2, "answer": "Heart" },
+          { "id": 3, "answer": "Liver" },
+          { "id": 4, "answer": "Brain" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 8,
+        "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+        "options": [
+          { "id": 1, "answer": "Carbon dioxide" },
+          { "id": 2, "answer": "Oxygen" },
+          { "id": 3, "answer": "Nitrogen" },
+          { "id": 4, "answer": "Hydrogen" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 9,
+        "question": "What is the boiling point of water?",
+        "options": [
+          { "id": 1, "answer": "100°C" },
+          { "id": 2, "answer": "0°C" },
+          { "id": 3, "answer": "50°C" },
+          { "id": 4, "answer": "150°C" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 10,
+        "question": "Which vitamin is known as the sunshine vitamin?",
+        "options": [
+          { "id": 1, "answer": "Vitamin D" },
+          { "id": 2, "answer": "Vitamin A" },
+          { "id": 3, "answer": "Vitamin C" },
+          { "id": 4, "answer": "Vitamin B12" }
+        ],
+        "answer": 1,
+        "points": 10
+      }
+    ]
+  }
+  

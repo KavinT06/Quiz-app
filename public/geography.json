@@ -1,64 +1,124 @@
 {
-    "quizQuestions": [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "London", "Berlin", "Madrid"],
-        "answer": "Paris",
-        "points": 10
-      },
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-        "answer": "Mars",
-        "points": 10
-      },
-      {
-        "question": "What is the largest mammal?",
-        "options": ["Elephant", "Blue Whale", "Giraffe", "Shark"],
-        "answer": "Blue Whale",
-        "points": 10
-      },
-      {
-        "question": "Who wrote 'To Kill a Mockingbird'?",
-        "options": ["Harper Lee", "Mark Twain", "J.K. Rowling", "Ernest Hemingway"],
-        "answer": "Harper Lee",
-        "points": 10
-      },
-      {
-        "question": "What is the smallest prime number?",
-        "options": ["1", "2", "3", "5"],
-        "answer": "2",
-        "points": 10
-      },
-      {
-        "question": "What is the chemical symbol for water?",
-        "options": ["H2O", "CO2", "O2", "H2"],
-        "answer": "H2O",
-        "points": 10
-      },
-      {
-        "question": "Which country is known as the Land of the Rising Sun?",
-        "options": ["China", "Japan", "India", "South Korea"],
-        "answer": "Japan",
-        "points": 10
-      },
-      {
-        "question": "Who painted the Mona Lisa?",
-        "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-        "answer": "Leonardo da Vinci",
-        "points": 10
-      },
-      {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean",
-        "points": 10
-      },
-      {
-        "question": "What is the speed of light?",
-        "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
-        "answer": "300,000 km/s",
-        "points": 10
-      }
-    ]
-  }
+  "quizQuestions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": [
+        { "id": 1, "answer": "Paris" },
+        { "id": 2, "answer": "Rome" },
+        { "id": 3, "answer": "Berlin" },
+        { "id": 4, "answer": "Madrid" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "options": [
+        { "id": 1, "answer": "Africa" },
+        { "id": 2, "answer": "Asia" },
+        { "id": 3, "answer": "Europe" },
+        { "id": 4, "answer": "Australia" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "Which ocean is the largest in the world?",
+      "options": [
+        { "id": 1, "answer": "Pacific Ocean" },
+        { "id": 2, "answer": "Atlantic Ocean" },
+        { "id": 3, "answer": "Indian Ocean" },
+        { "id": 4, "answer": "Arctic Ocean" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "What is the longest river in the world?",
+      "options": [
+        { "id": 1, "answer": "Nile River" },
+        { "id": 2, "answer": "Amazon River" },
+        { "id": 3, "answer": "Yangtze River" },
+        { "id": 4, "answer": "Mississippi River" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "Which country has the most population?",
+      "options": [
+        { "id": 1, "answer": "China" },
+        { "id": 2, "answer": "India" },
+        { "id": 3, "answer": "United States" },
+        { "id": 4, "answer": "Indonesia" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "Mount Everest is located in which two countries?",
+      "options": [
+        { "id": 1, "answer": "Nepal and China" },
+        { "id": 2, "answer": "India and China" },
+        { "id": 3, "answer": "Nepal and India" },
+        { "id": 4, "answer": "Tibet and India" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "Which is the smallest country in the world?",
+      "options": [
+        { "id": 1, "answer": "Vatican City" },
+        { "id": 2, "answer": "Monaco" },
+        { "id": 3, "answer": "San Marino" },
+        { "id": 4, "answer": "Liechtenstein" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        { "id": 1, "answer": "Japan" },
+        { "id": 2, "answer": "China" },
+        { "id": 3, "answer": "Thailand" },
+        { "id": 4, "answer": "India" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 9,
+      "question": "Which desert is the largest in the world?",
+      "options": [
+        { "id": 1, "answer": "Sahara Desert" },
+        { "id": 2, "answer": "Gobi Desert" },
+        { "id": 3, "answer": "Kalahari Desert" },
+        { "id": 4, "answer": "Atacama Desert" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "Which is the longest mountain range in the world?",
+      "options": [
+        { "id": 1, "answer": "Andes Mountains" },
+        { "id": 2, "answer": "Himalayas" },
+        { "id": 3, "answer": "Rocky Mountains" },
+        { "id": 4, "answer": "Ural Mountains" }
+      ],
+      "answer": 1,
+      "points": 10
+    }
+  ]
+}

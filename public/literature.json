@@ -1,0 +1,125 @@
+{
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+          { "id": 1, "answer": "William Shakespeare" },
+          { "id": 2, "answer": "Charles Dickens" },
+          { "id": 3, "answer": "Mark Twain" },
+          { "id": 4, "answer": "Jane Austen" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 2,
+        "question": "Which novel is considered George Orwell's masterpiece?",
+        "options": [
+          { "id": 1, "answer": "Animal Farm" },
+          { "id": 2, "answer": "1984" },
+          { "id": 3, "answer": "Brave New World" },
+          { "id": 4, "answer": "Fahrenheit 451" }
+        ],
+        "answer": 2,
+        "points": 10
+      },
+      {
+        "id": 3,
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": [
+          { "id": 1, "answer": "Charlotte Brontë" },
+          { "id": 2, "answer": "Virginia Woolf" },
+          { "id": 3, "answer": "Emily Dickinson" },
+          { "id": 4, "answer": "Jane Austen" }
+        ],
+        "answer": 4,
+        "points": 10
+      },
+      {
+        "id": 4,
+        "question": "Which book is considered the first science fiction novel?",
+        "options": [
+          { "id": 1, "answer": "Frankenstein" },
+          { "id": 2, "answer": "The Time Machine" },
+          { "id": 3, "answer": "Dracula" },
+          { "id": 4, "answer": "Journey to the Center of the Earth" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 5,
+        "question": "Who is the author of 'Harry Potter' series?",
+        "options": [
+          { "id": 1, "answer": "J.R.R. Tolkien" },
+          { "id": 2, "answer": "George R.R. Martin" },
+          { "id": 3, "answer": "J.K. Rowling" },
+          { "id": 4, "answer": "Suzanne Collins" }
+        ],
+        "answer": 3,
+        "points": 10
+      },
+      {
+        "id": 6,
+        "question": "What is the title of the first 'Lord of the Rings' book?",
+        "options": [
+          { "id": 1, "answer": "The Two Towers" },
+          { "id": 2, "answer": "The Fellowship of the Ring" },
+          { "id": 3, "answer": "The Return of the King" },
+          { "id": 4, "answer": "The Hobbit" }
+        ],
+        "answer": 2,
+        "points": 10
+      },
+      {
+        "id": 7,
+        "question": "In which novel did Sherlock Holmes first appear?",
+        "options": [
+          { "id": 1, "answer": "The Sign of Four" },
+          { "id": 2, "answer": "A Study in Scarlet" },
+          { "id": 3, "answer": "The Hound of the Baskervilles" },
+          { "id": 4, "answer": "The Adventure of the Blue Carbuncle" }
+        ],
+        "answer": 2,
+        "points": 10
+      },
+      {
+        "id": 8,
+        "question": "Who wrote 'The Great Gatsby'?",
+        "options": [
+          { "id": 1, "answer": "Ernest Hemingway" },
+          { "id": 2, "answer": "F. Scott Fitzgerald" },
+          { "id": 3, "answer": "John Steinbeck" },
+          { "id": 4, "answer": "Mark Twain" }
+        ],
+        "answer": 2,
+        "points": 10
+      },
+      {
+        "id": 9,
+        "question": "Which author wrote 'Moby-Dick'?",
+        "options": [
+          { "id": 1, "answer": "Herman Melville" },
+          { "id": 2, "answer": "Nathaniel Hawthorne" },
+          { "id": 3, "answer": "Mark Twain" },
+          { "id": 4, "answer": "Charles Dickens" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 10,
+        "question": "Which of the following authors was known for his stream-of-consciousness writing style?",
+        "options": [
+          { "id": 1, "answer": "James Joyce" },
+          { "id": 2, "answer": "Ernest Hemingway" },
+          { "id": 3, "answer": "F. Scott Fitzgerald" },
+          { "id": 4, "answer": "William Faulkner" }
+        ],
+        "answer": 1,
+        "points": 10
+      }
+    ]
+  }
+  

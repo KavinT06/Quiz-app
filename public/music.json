@@ -1,0 +1,125 @@
+{
+    "quizQuestions": [
+      {
+        "id": 1,
+        "question": "Which band is known for the song 'Bohemian Rhapsody'?",
+        "options": [
+          { "id": 1, "answer": "Queen" },
+          { "id": 2, "answer": "The Beatles" },
+          { "id": 3, "answer": "Led Zeppelin" },
+          { "id": 4, "answer": "Pink Floyd" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 2,
+        "question": "Who is known as the 'King of Pop'?",
+        "options": [
+          { "id": 1, "answer": "Michael Jackson" },
+          { "id": 2, "answer": "Elvis Presley" },
+          { "id": 3, "answer": "Prince" },
+          { "id": 4, "answer": "Whitney Houston" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 3,
+        "question": "What is the name of Beethoven's famous symphony?",
+        "options": [
+          { "id": 1, "answer": "Symphony No. 5" },
+          { "id": 2, "answer": "Symphony No. 9" },
+          { "id": 3, "answer": "Symphony No. 7" },
+          { "id": 4, "answer": "Symphony No. 6" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 4,
+        "question": "Which instrument does a cellist play?",
+        "options": [
+          { "id": 1, "answer": "Cello" },
+          { "id": 2, "answer": "Violin" },
+          { "id": 3, "answer": "Piano" },
+          { "id": 4, "answer": "Guitar" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 5,
+        "question": "Who composed the opera 'The Magic Flute'?",
+        "options": [
+          { "id": 1, "answer": "Wolfgang Amadeus Mozart" },
+          { "id": 2, "answer": "Ludwig van Beethoven" },
+          { "id": 3, "answer": "Johann Sebastian Bach" },
+          { "id": 4, "answer": "Giuseppe Verdi" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 6,
+        "question": "Which song did The Beatles release in 1967?",
+        "options": [
+          { "id": 1, "answer": "Hey Jude" },
+          { "id": 2, "answer": "Let It Be" },
+          { "id": 3, "answer": "Strawberry Fields Forever" },
+          { "id": 4, "answer": "Yesterday" }
+        ],
+        "answer": 3,
+        "points": 10
+      },
+      {
+        "id": 7,
+        "question": "Who was the lead singer of Nirvana?",
+        "options": [
+          { "id": 1, "answer": "Kurt Cobain" },
+          { "id": 2, "answer": "Dave Grohl" },
+          { "id": 3, "answer": "Chris Novoselic" },
+          { "id": 4, "answer": "Eddie Vedder" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 8,
+        "question": "Which artist released the album '1989'?",
+        "options": [
+          { "id": 1, "answer": "Taylor Swift" },
+          { "id": 2, "answer": "Ariana Grande" },
+          { "id": 3, "answer": "Katy Perry" },
+          { "id": 4, "answer": "Beyoncé" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 9,
+        "question": "What genre of music is Bob Marley famous for?",
+        "options": [
+          { "id": 1, "answer": "Reggae" },
+          { "id": 2, "answer": "Rock" },
+          { "id": 3, "answer": "Jazz" },
+          { "id": 4, "answer": "Blues" }
+        ],
+        "answer": 1,
+        "points": 10
+      },
+      {
+        "id": 10,
+        "question": "What is the name of the famous music festival held in California?",
+        "options": [
+          { "id": 1, "answer": "Coachella" },
+          { "id": 2, "answer": "Woodstock" },
+          { "id": 3, "answer": "Glastonbury" },
+          { "id": 4, "answer": "Lollapalooza" }
+        ],
+        "answer": 1,
+        "points": 10
+      }
+    ]
+  }
+  

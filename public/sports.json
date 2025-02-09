@@ -1,0 +1,124 @@
+{
+  "quizQuestions": [
+    {
+      "id": 1,
+      "question": "Which country won the 2018 FIFA World Cup?",
+      "options": [
+        { "id": 1, "answer": "France" },
+        { "id": 2, "answer": "Germany" },
+        { "id": 3, "answer": "Brazil" },
+        { "id": 4, "answer": "Argentina" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "Who holds the record for the most Olympic gold medals?",
+      "options": [
+        { "id": 1, "answer": "Michael Phelps" },
+        { "id": 2, "answer": "Usain Bolt" },
+        { "id": 3, "answer": "Carl Lewis" },
+        { "id": 4, "answer": "Mark Spitz" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "In which sport would you perform a slam dunk?",
+      "options": [
+        { "id": 1, "answer": "Basketball" },
+        { "id": 2, "answer": "Volleyball" },
+        { "id": 3, "answer": "Football" },
+        { "id": 4, "answer": "Tennis" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "Which team has won the most Super Bowl titles?",
+      "options": [
+        { "id": 1, "answer": "New England Patriots" },
+        { "id": 2, "answer": "Dallas Cowboys" },
+        { "id": 3, "answer": "Pittsburgh Steelers" },
+        { "id": 4, "answer": "San Francisco 49ers" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "Who is known as 'The King of Football'?",
+      "options": [
+        { "id": 1, "answer": "Pele" },
+        { "id": 2, "answer": "Diego Maradona" },
+        { "id": 3, "answer": "Lionel Messi" },
+        { "id": 4, "answer": "Cristiano Ronaldo" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "In which sport would you perform a high jump?",
+      "options": [
+        { "id": 1, "answer": "Athletics" },
+        { "id": 2, "answer": "Gymnastics" },
+        { "id": 3, "answer": "Basketball" },
+        { "id": 4, "answer": "Football" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "Which country hosted the 2020 Summer Olympics?",
+      "options": [
+        { "id": 1, "answer": "Japan" },
+        { "id": 2, "answer": "Brazil" },
+        { "id": 3, "answer": "China" },
+        { "id": 4, "answer": "Australia" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "What is the term for the act of scoring in football?",
+      "options": [
+        { "id": 1, "answer": "Goal" },
+        { "id": 2, "answer": "Touchdown" },
+        { "id": 3, "answer": "Point" },
+        { "id": 4, "answer": "Basket" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 9,
+      "question": "Which athlete is known as 'The fastest man on Earth'?",
+      "options": [
+        { "id": 1, "answer": "Usain Bolt" },
+        { "id": 2, "answer": "Michael Johnson" },
+        { "id": 3, "answer": "Carl Lewis" },
+        { "id": 4, "answer": "Tyson Gay" }
+      ],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "In which sport would you find a pitch, wickets, and a bat?",
+      "options": [
+        { "id": 1, "answer": "Cricket" },
+        { "id": 2, "answer": "Baseball" },
+        { "id": 3, "answer": "Rugby" },
+        { "id": 4, "answer": "Tennis" }
+      ],
+      "answer": 1,
+      "points": 10
+    }
+  ]
+}
