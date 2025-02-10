@@ -6,7 +6,7 @@ const page = () => {
         <div>
             <div className="bg-[#f3f4f6] text-black h-screen">
                 <h1 className="text-4xl font-bold text-center">Music Quiz!</h1>
-                <Quiz />
+                <Quiz jsonFile={"music.json"}/>
             </div>
         </div>
     );

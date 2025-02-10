@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Quiz from "../cmp/Quiz";
 
@@ -6,7 +7,7 @@ const page = () => {
         <div>
             <div className="bg-[#f3f4f6] text-black h-screen">
                 <h1 className="text-4xl font-bold text-center">History Quiz!</h1>
-                <Quiz />
+                <Quiz jsonFile={"history.json"} />
             </div>
         </div>
     );

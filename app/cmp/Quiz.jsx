@@ -10,7 +10,7 @@ import Percentage from "./Percentage";
 import Clock from "./Clock";
 import Stopwatch from "./Stopwatch";
 
-const Quiz = () => {
+const Quiz = ({jsonFile}) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(10);
@@ -18,7 +18,7 @@ const Quiz = () => {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    fetch("/tech1.json")
+    fetch(`/${jsonFile}`)
       .then((response) => response.json())
       .then((data) => {
         setQuestions(data.quizQuestions);
@@ -49,6 +49,9 @@ const Quiz = () => {
 
   const handleAnswer = (selectedId) => {
     const currentQuestion = questions[currentQuestionIndex];
+    const updatedQuestions = [...questions];
+    updatedQuestions[currentQuestionIndex].selectedAnswer = selectedId;
+    setQuestions(updatedQuestions);
     if (selectedId === currentQuestion.answer) {
       setTotalPoints((prevPoints) => prevPoints + currentQuestion.points);
     }
@@ -94,7 +97,7 @@ const Quiz = () => {
               <div>
                 <p className="mr-14">Correct Answers</p>
                 <p className="ml-4 text-green-700">
-                  {questions.filter((q) => q.answer === q.selectedAnswer).reduce((acc, q) => acc + q.points, 0)}
+                  {questions.filter((q) => q.answer === q.selectedAnswer).length}
                 </p>
               </div>
               <div className="w-9 my-6 fill-green-700">
@@ -190,7 +193,7 @@ const Quiz = () => {
               </li>
             ))}
           </ul>
-          <p className="my-5">Total Points: {totalPoints}</p>
+          <p className="my-5 font-semibold">Total Points: {totalPoints}</p>
         </div>
       </div>
     </div>
