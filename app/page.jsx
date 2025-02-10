@@ -27,7 +27,7 @@ const page = () => {
                     <h1 className="text-blue-500 font-bold md:text-4xl text-center md:py-4 text-2xl">
                         Welcome to the Quiz App
                     </h1>
-                    <h3 className="md:text-2xl text-center py-4 md:mb-10 text-lg">
+                    <h3 className="md:text-2xl text-center py-4 md:mb-10 text-lg font-semibold">
                         Select a subject to get started and test your knowledge!
                     </h3>
                     <div className="grid gap-3 md:grid-cols-3 grid-cols-2 md:ml-5 lg:ml-2 xl:ml-16">

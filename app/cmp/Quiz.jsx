@@ -13,7 +13,7 @@ import Stopwatch from "./Stopwatch";
 const Quiz = ({jsonFile}) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(100000000);
+  const [timeLeft, setTimeLeft] = useState(10);
   const [totalPoints, setTotalPoints] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
 
@@ -71,10 +71,10 @@ const Quiz = ({jsonFile}) => {
   if (quizFinished) {
     return (
       <div>
-        <h1 className="text-[#2563eb] font-bold text-2xl text-center my-8">Quiz Results</h1>
+        <h1 className="text-[#2563eb] font-bold text-2xl text-center md:my-8 my-3">Quiz Results</h1>
         <div className="flex justify-center items-center">
-          <div className="grid grid-cols-3 gap-10 text-xl font-semibold">
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-2 md:text-xl font-semibold">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <Confet />
               <div>
                 <p className="mr-14">Total Points</p>
@@ -84,7 +84,7 @@ const Quiz = ({jsonFile}) => {
                 <Trophy />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mr-14">Points Earned</p>
                 <p className="ml-4 text-green-700">{totalPoints}</p>
@@ -93,7 +93,7 @@ const Quiz = ({jsonFile}) => {
                 <Trophy />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mr-14">Correct Answers</p>
                 <p className="ml-4 text-green-700">
@@ -104,7 +104,7 @@ const Quiz = ({jsonFile}) => {
                 <Correct />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mr-14">Wrong Answers</p>
                 <p className="ml-4 text-red-700">
@@ -115,7 +115,7 @@ const Quiz = ({jsonFile}) => {
                 <Wrong />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mx-6">Unattempted Questions</p>
                 <p className="mx-8 text-red-500">
@@ -126,7 +126,7 @@ const Quiz = ({jsonFile}) => {
                 <Question />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mr-16">Percentage</p>
                 <p className="ml-4 text-blue-700">
@@ -137,7 +137,7 @@ const Quiz = ({jsonFile}) => {
                 <Percentage />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mr-14">Total Time Spent</p>
                 <p className="ml-4 text-purple-700">{questions.length * 10 - timeLeft} seconds</p>
@@ -146,7 +146,7 @@ const Quiz = ({jsonFile}) => {
                 <Clock />
               </div>
             </div>
-            <div className="h-28 w-72 bg-white flex justify-center items-center rounded-2xl">
+            <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
               <div>
                 <p className="mx-6">Avg Time/Question</p>
                 <p className="mx-8 text-blue-500">
@@ -160,8 +160,8 @@ const Quiz = ({jsonFile}) => {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div className="h-14 w-3/6 bg-white my-10 rounded-2xl">
-            <p className="font-bold text-xl text-center p-4">
+          <div className="md:h-14 md:w-3/6 bg-white md:my-10 my-3 rounded-2xl">
+            <p className="font-bold md:text-xl text-center p-4">
               You scored {totalPoints} out of {questions.reduce((acc, q) => acc + q.points, 0)} points!
             </p>
           </div>
