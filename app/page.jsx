@@ -23,14 +23,14 @@ const page = () => {
     return (
         <div>
             <div className="bg-white text-black">
-                <div className="mx-auto max-w-7xl py-12 p-4 lg:px-8">
-                    <h1 className="text-blue-500 font-bold text-4xl text-center py-4">
+                <div className="mx-auto max-w-7xl md:py-12 p-4 md:px-8">
+                    <h1 className="text-blue-500 font-bold lg:text-4xl text-center md:py-4 text-2xl">
                         Welcome to the Quiz App
                     </h1>
-                    <h3 className="text-2xl text-center py-4 mb-10">
+                    <h3 className="lg:text-2xl text-center py-4 md:mb-10 text-lg">
                         Select a subject to get started and test your knowledge!
                     </h3>
-                    <div className="grid grid-cols-3">
+                    <div className="grid gap-3 md:grid-cols-3 grid-cols-2 md:ml-5 lg:ml-2 xl:ml-16">
                         <Link href="/tech">
                             <Card1 />
                         </Link>

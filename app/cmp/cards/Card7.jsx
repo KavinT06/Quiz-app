@@ -10,7 +10,7 @@ const Card = () => {
                 <Image
                     src={imageUrl}
                     alt="Card Visual"
-                    className="card__image"
+                    className="card__image w-full h-full object-contain object-center"
                     layout="fill"
                     objectFit="cover"
                 />
@@ -90,5 +90,27 @@ const StyledWrapper = styled.div`
         scale: 0;
         transform: rotate(-45deg);
     }
+    .card {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 3 / 2;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure full image visibility */
+    object-position: center;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      max-width: 200px;
+      aspect-ratio: 4 / 3;
+    }
+  }
 `;
 export default Card;
