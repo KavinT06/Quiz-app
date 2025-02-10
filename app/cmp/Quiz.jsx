@@ -13,7 +13,7 @@ import Stopwatch from "./Stopwatch";
 const Quiz = ({jsonFile}) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(100000000);
   const [totalPoints, setTotalPoints] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
 
@@ -174,18 +174,22 @@ const Quiz = ({jsonFile}) => {
 
   return (
     <div>
-      <div className="flex items-center justify-center bg-[#f3f4f6] my-8">
-        <div className="bg-white w-6/12 text-center">
+      <div className="flex items-center justify-center bg-[#f3f4f6]">
+        <div className="bg-white md:w-6/12 w-11/12 text-center md:my-8">
           <h2 className="font-bold text-xl my-3">Question {currentQuestionIndex + 1}</h2>
-          <p className="text-2xl font-bold w-3/4 bg-[#3b82f6] ml-20 py-3 text-white rounded-xl">
+          <p className="md:text-2xl text-lg font-bold lg:w-3/4 md:w-8/12 w-9/12 bg-[#3b82f6] md:ml-20 md:py-3 ml-10 text-white rounded-xl">
             {currentQuestion.question}
           </p>
-          <p className="text-left ml-20 mt-5 font-bold">Time left: {timeLeft} seconds</p>
+          <p className="text-left md:ml-20 md:mt-5 my-3 ml-3 font-bold">
+            Time left: 
+            <span className="inline text-red-700"> {timeLeft}</span > sec
+            <span className="hidden md:inline">onds</span>
+          </p>
           <ul>
             {currentQuestion.options.map((option) => (
               <li key={option.id}>
                 <button
-                  className="btn btn-wide bg-slate-200 border-none text-black hover:bg-[#d1d5db] mt-5"
+                  className="btn btn-wide bg-slate-200 border-none text-black hover:bg-[#d1d5db] md:mt-5 mt-3 xl:w-2/4"
                   onClick={() => handleAnswer(option.id)}
                 >
                   {option.answer}
@@ -193,7 +197,7 @@ const Quiz = ({jsonFile}) => {
               </li>
             ))}
           </ul>
-          <p className="my-5 font-semibold">Total Points: {totalPoints}</p>
+          <p className="my-5 font-semibold">Total Points: <span className="inline text-green-700 font-bold">{totalPoints}</span></p>
         </div>
       </div>
     </div>
