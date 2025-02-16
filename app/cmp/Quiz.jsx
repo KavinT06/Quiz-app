@@ -9,8 +9,9 @@ import Question from "./Question";
 import Percentage from "./Percentage";
 import Clock from "./Clock";
 import Stopwatch from "./Stopwatch";
+import Coins from "./Coins";
 
-const Quiz = ({jsonFile}) => {
+const Quiz = ({ jsonFile }) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(10);
@@ -71,7 +72,17 @@ const Quiz = ({jsonFile}) => {
   if (quizFinished) {
     return (
       <div>
-        <h1 className="text-[#2563eb] font-bold text-2xl text-center md:my-8 my-3">Quiz Results</h1>
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="text-[#2563eb] font-bold text-2xl text-center md:my-8 my-3">Quiz Results</h1>
+          <ul className="font-medium w-full flex justify-end text-xl mb-3">
+            <li className="flex items-center">
+              <Coins />
+              <p className="block py-2 px-3 text-gray-900 font-bold">
+                Points : <span className="text-blue-600">{totalPoints}</span>
+              </p>
+            </li>
+          </ul>
+        </div>
         <div className="flex justify-center items-center">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-2 md:text-xl font-semibold">
             <div className="md:h-28 md:w-72 h-20 w-60 bg-white flex justify-center items-center rounded-2xl">
@@ -181,7 +192,7 @@ const Quiz = ({jsonFile}) => {
             {currentQuestion.question}
           </p>
           <p className="text-left md:ml-20 md:mt-5 my-3 ml-3 font-bold">
-            Time left: 
+            Time left:
             <span className="inline text-red-700"> {timeLeft}</span > sec
             <span className="hidden md:inline">onds</span>
           </p>
