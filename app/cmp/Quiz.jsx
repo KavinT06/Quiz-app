@@ -75,7 +75,7 @@ const Quiz = ({ jsonFile }) => {
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[#2563eb] font-bold text-2xl text-center md:my-8 my-3">Quiz Results</h1>
           <ul className="font-medium w-full flex justify-end text-xl mb-3">
-            <li className="flex items-center">
+            <li className="flex items-center h-10">
               <Coins />
               <p className="block py-2 px-3 text-gray-900 font-bold">
                 Points : <span className="text-blue-600">{totalPoints}</span>
